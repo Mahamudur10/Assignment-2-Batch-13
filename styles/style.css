@@ -31,7 +31,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 24px 8px;
+    padding: 24px 10px;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -55,8 +55,12 @@
     gap: 2rem;
 }
 
-.navbar-link p {
+.navbar-link a {
     cursor: pointer;
+}
+
+.navbar-link a:hover {
+    color: #e982e0;
 }
 
 .hamburger-icon {
@@ -67,12 +71,20 @@
     .navbar {
         padding: 18px 20px;
     }
+
+    .logo {
+        font-size: 2rem;
+    }
+
     .navbar-link,
     .primary-btn {
         display: none;
 
     }
+
     .hamburger-icon {
         display: block;
+        width: 25px;
+        cursor: pointer;
     }
 }
