@@ -15,13 +15,15 @@
     padding: 13px 17px;
     border-radius: 1000px;
     color: white;
-    background: blue;
+    background: linear-gradient(to right, #F7E93F, #FB09B4, #9100F8);
+    font-weight: 600;
+    cursor: pointer;
     border: none;
 }
 
 /* navbar */
 .nav-section {
-    background: #1A0B2E;
+    background: #200D39;
     color: #FFFFFF;
 }
 
@@ -34,11 +36,27 @@
     margin: 0 auto;
 }
 
+.logo {
+    font-size: 2.5rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.gradient-text {
+    background: linear-gradient(to right, #F7E93F, #FB09B4, #9100F8);
+    color: transparent;
+    background-clip: text;
+}
+
 .navbar-link {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 2rem;
+}
+
+.navbar-link p {
+    cursor: pointer;
 }
 
 .hamburger-icon {
@@ -49,13 +67,11 @@
     .navbar {
         padding: 18px 20px;
     }
-
     .navbar-link,
     .primary-btn {
         display: none;
 
     }
-
     .hamburger-icon {
         display: block;
     }
