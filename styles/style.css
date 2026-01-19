@@ -80,6 +80,10 @@
     justify-content: center;
     align-items: center;
 }
+.banner-conatainer{
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
 .circle{
     width: 350px;
     height: 350px;
@@ -104,6 +108,42 @@
     font-weight: 600;
     top: 0;
     right: 20px;
+}
+.banner-conatainer h1{
+    font-size: 4rem;
+    margin-bottom: 16px;
+    font-weight: 800;
+}
+.banner-conatainer p{
+    font-size: 0.90rem;
+    margin-bottom: 24px;
+    font-weight: 200;
+}
+.banner-buttons{
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+}
+.banner-buttons button{
+    padding: 12px 20px;
+    border-radius: 1000px;
+}
+.banner-btn1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: rgba(255, 255, 255, 1);
+    background: linear-gradient(to right, #F7E93F, #FB09B4, #9100F8);;
+}
+.banner-btn2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: #00FF88;
+    border: 1px solid rgba(0, 255, 136, 1);
+    background: transparent;
 }
 /* footer section */
 
