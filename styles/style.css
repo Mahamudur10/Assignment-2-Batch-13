@@ -81,14 +81,30 @@
     align-items: center;
 }
 .circle{
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     background-image: url("/assets/hero-circle.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 24px;
+    position: relative;
 }
-
+.badg{
+    position: absolute;
+    background-color: #00FF88;
+    color: #1A0B2E;
+    padding: 10px 18px;
+    border-radius: 1000px;
+    box-shadow: 0px 3px 27px 0px rgba(0, 255, 136, 0.5);
+    font-size: 1.2rem;
+    font-weight: 600;
+    top: 0;
+    right: 20px;
+}
 /* footer section */
 
 .footer-container {
