@@ -23,7 +23,7 @@
 
 /* navbar */
 .nav-section {
-    background: #1d0938;
+    background: #1a0b2e;
     color: #FFFFFF;
     border-bottom: 1px solid rgba(65, 37, 103, 1);
 }
@@ -70,8 +70,8 @@
 
 /* banner section */
 
-.banner{
-    min-height: 100vh;
+.banner {
+    min-height: 90vh;
     background-image: url(/assets/hero-bg.png);
     background-size: cover;
     background-position: center;
@@ -79,12 +79,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
-.banner-conatainer{
+
+.banner-conatainer {
     text-align: center;
     color: rgba(255, 255, 255, 1);
+    position: absolute;
+    gap: 20px;
+    top: 15%;
+
 }
-.circle{
+
+.circle {
     width: 350px;
     height: 350px;
     background-image: url("/assets/hero-circle.png");
@@ -97,7 +104,8 @@
     margin: 0 auto 24px;
     position: relative;
 }
-.badg{
+
+.badg {
     position: absolute;
     background-color: #00FF88;
     color: #1A0B2E;
@@ -109,34 +117,42 @@
     top: 0;
     right: 20px;
 }
-.banner-conatainer h1{
+
+.banner-conatainer h1 {
     font-size: 4rem;
     margin-bottom: 16px;
     font-weight: 800;
 }
-.banner-conatainer p{
+
+.banner-conatainer p {
     font-size: 0.90rem;
-    margin-bottom: 24px;
+    margin-bottom: 30px;
     font-weight: 200;
 }
-.banner-buttons{
+
+.banner-buttons {
     display: flex;
     gap: 8px;
     justify-content: center;
 }
-.banner-buttons button{
+
+.banner-buttons button {
     padding: 12px 20px;
     border-radius: 1000px;
+    cursor: pointer;
 }
-.banner-btn1{
+
+.banner-btn1 {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 8px;
     color: rgba(255, 255, 255, 1);
-    background: linear-gradient(to right, #F7E93F, #FB09B4, #9100F8);;
+    background: linear-gradient(to right, #F7E93F, #FB09B4, #9100F8);
+    border: none;
 }
-.banner-btn2{
+
+.banner-btn2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -145,6 +161,67 @@
     border: 1px solid rgba(0, 255, 136, 1);
     background: transparent;
 }
+
+/* About podcast */
+.podcast-section {
+    height: 60vh;
+    background: #1a0b2e;
+}
+
+.Podcast-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 40vh;
+    border: 4px slid yellow;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+}
+
+.podcast-top {
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    padding: 30px 10px;
+    max-width: 55%;
+    margin: 0 auto;
+}
+
+.podcast-top h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.podcast-top p {
+    font-size: 0.9rem;
+    font-weight: 200;
+}
+
+.podcst-down {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 1);
+    padding-top: 80px;
+
+}
+
+.podcst-down h2 {
+    color: rgba(0, 255, 136, 1);
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.podcst-down span {
+    color: rgba(255, 255, 255, 1);
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+}
+
 /* footer section */
 
 .footer-container {
@@ -188,6 +265,9 @@
     cursor: pointer;
     flex-wrap: wrap;
 }
+
+
+
 
 
 @media screen and (max-width:576px) {
