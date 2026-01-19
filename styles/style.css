@@ -23,8 +23,9 @@
 
 /* navbar */
 .nav-section {
-    background: #200D39;
+    background: #1d0938;
     color: #FFFFFF;
+    border-bottom: 1px solid rgba(65, 37, 103, 1);
 }
 
 .navbar {
@@ -66,6 +67,49 @@
 .hamburger-icon {
     display: none;
 }
+
+/* banner section */
+/* .banner{
+    height: 85vh;
+    background-image: url("/assets/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+} */
+
+/* footer section */
+
+.footer-container{
+    height: 40vh;
+    background-image: url("/assets/footer-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+}
+.footer-text{
+    border: 2px soilid red;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    color: white;
+}
+.footer-logo{
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+.sponser{
+    display: flex;
+    gap: 40px;
+
+}
+
 
 @media screen and (max-width:576px) {
     .navbar {
