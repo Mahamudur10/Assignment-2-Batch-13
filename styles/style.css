@@ -480,7 +480,7 @@
     }
 
     .logo {
-        font-size: 2rem;
+        font-size: 2.3rem;
     }
 
     .banner {
@@ -490,15 +490,17 @@
     .circle {
         background-image: url("../assets/hero-circle.png");
         max-width: 200px;
-        margin: 45px auto 24px;
+        /* margin: 45px auto 24px; */
     }
 
     .banner-conatainer {
         padding: 110px 20px;
-        padding-top: 60px;
+        padding-top: 10px;
 
     }
-
+    .banner-conatainer h1{
+        font-size: 2.6rem;
+    }
     .mic {
         width: 50px;
     }
@@ -534,6 +536,10 @@
 
     .podcast-top {
         max-width: 100%;
+    }
+
+    .why-chose-text h1 {
+        font-size: 2.3rem;
     }
 
     .why-chose-grid {
