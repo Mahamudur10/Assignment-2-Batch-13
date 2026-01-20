@@ -105,7 +105,7 @@
     width: 90%;
     height: auto;
     aspect-ratio: 1/1;
-    background-image: url("/assets/hero-circle.png");
+    background-image: url("../assets/hero-circle.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
